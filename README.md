@@ -1,17 +1,17 @@
 # E. Radar Data
 ... 
 
-1. [Climate stations](#1-climate-stations)
-2. [Climate precipitation stations](#2-climate-precipitation-stations)
-3. [Ground-based spatial climate data](#3-ground-based-spatial-climate-data)
+1. [Basic radar data](#1-basic-radar-data)
+2. [Extended radar data](#2-extended-radar-data)
+3. [Combined precipitation calculations](#3-combined-precipitation-calculations)
 
 ---
 
-## 1. Climate stations
+## 1. Basic radar data
 ...
 
-## 2. Climate precipitation stations
+## 2. Extended radar data
 ...
 
-## 3. Ground-based spatial climate data
+## 3. Combined precipitation calculations
 ...
