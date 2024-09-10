@@ -80,3 +80,4 @@ See example data files: [`...`](...).
 
 ### Data visualisation
 See e.g. MeteoSwiss' [...](...).
+See e.g. Martin Schilliger/Stadt Zürich, Schutz & Rettung's [Radar Visualisation for HDF5/NetCDF files](https://github.com/martinschilliger/Radar-Visualisation).
