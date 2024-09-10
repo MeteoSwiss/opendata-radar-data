@@ -79,5 +79,5 @@ See example data files: [`...`](...).
 *See example [station metadata file](...).*
 
 ### Data visualisation
-See e.g. MeteoSwiss' [...](...).
+See e.g. MeteoSwiss' [...](...). <br>
 See e.g. Martin Schilliger/Stadt Zürich, Schutz & Rettung's [Radar Visualisation for HDF5/NetCDF files](https://github.com/martinschilliger/Radar-Visualisation).
