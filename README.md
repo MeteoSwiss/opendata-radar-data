@@ -12,7 +12,7 @@
 ## 1. Basic radar data
 ... 
 
-...
+cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2621-basic-radar-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2621-basic-radar-data)
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station*.
@@ -36,7 +36,7 @@ See e.g. MeteoSwiss' [...](...).
 ## 2. Extended radar data
 ... 
 
-...
+cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2622-advanced-radar-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2622-advanced-radar-data)
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station*.
@@ -60,7 +60,7 @@ See e.g. MeteoSwiss' [...](...).
 ## 3. Combined precipitation calculations
 ... 
 
-...
+cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2623-combiprecip-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2623-combiprecip-data)
 
 ### Data granularity, update frequency, format and volume
 There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station*.
