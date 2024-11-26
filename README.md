@@ -6,22 +6,22 @@ MeteoSwiss operates a [network of five weather radar stations](https://www.meteo
 The following radar products are available:
 
 **Precipitation Products**
-- D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP*
-- D2 - [Combined Precipitation](d2---combined-precipitation) *CombiPrecip*
+- D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP* --> Basic Radar (Web)
+- D2 - [Combined Precipitation](d2---combined-precipitation) *CombiPrecip* --> Advanced Radar (Web)
 - D3 - RainForest Precipitation - *not yet realised*
 
 **Reflectivity-based Products** ?
-- D4 - ? *MAX-ECHO*
-- D5 - ? *Echo-Top 15dBZ*
-- D6 - ? *Echo-Top 45dBZ*
+- D4 - *MAX-ECHO* --> Advanced Radar (Web)
+- D5 - *Echo-Top 15dBZ* --> Advanced Radar (Web)
+- D6 - *Echo-Top 45dBZ* --> Advanced Radar (Web)
 - D7 - CAPPI 3D - *not yet realised*
 - D8 - Reflectivity Height - *not yet realised*
 
 **Hail Products**
-- D9 - *Probability of Hail* *POH*
-- D10 - *Probability of Hail with Analysis* *POH*
-- D11 - *Maximum Expected Severe Hail Size* *MESHS*
-- D12 - *Maximum Expected Severe Hail Size with Analysis* *MESHS*
+- D9 - *Probability of Hail* *POH* --> Advanced Radar (Web)
+- D10 - *Probability of Hail with Analysis* *POH* --> Advanced Radar (Web)
+- D11 - *Maximum Expected Severe Hail Size* *MESHS* --> Advanced Radar (Web)
+- D12 - *Maximum Expected Severe Hail Size with Analysis* *MESHS* --> Advanced Radar (Web)
 
 **Convection Products**
 - D13 - Vertical Integrated Liquid content (VIL) - *not yet realised*
