@@ -37,7 +37,7 @@ See example data files: [`...`](...).
 See e.g. MeteoSwiss' [...](...).
 
 ## 2. Extended radar data
-... 
+[Extended radar products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) combine observations from Swiss weather radars with other data, such as those obtained from the numerical weather model. For certain meteorological phenomena, such as hail occurring in conjunction with a thunderstorm, these extended products provide more detail than the basic radar products. ...
 
 cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2622-advanced-radar-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2622-advanced-radar-data)
 
