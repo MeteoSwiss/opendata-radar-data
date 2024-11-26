@@ -1,14 +1,9 @@
 [MeteoSwiss - Open Data](https://github.com/MeteoSwiss/opendata/blob/main/README.md) > [Understanding MeteoSwiss' Open Data products](https://github.com/MeteoSwiss/opendata/blob/main/README.md#understanding-meteoswiss-open-data-products) > D. Radar Data
 
 # D. Radar Data
-MeteoSwiss operates a network of five weather radar stations which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland. The sites are
-- Albis near Zurich (equipped with the latest technology (dual polarisation) in 2012, monitors the atmosphere of the whole of northern Switzerland)
-- Monte Lema in the Canton of Ticino (equipped with the latest technology (dual polarisation) in 2011, monitors the atmosphere of the whole of southern Switzerland)
-- La Dôle near Geneva (equipped with the latest technology (dual polarisation) in 2011)
-- Pointe de la Plaine Morte in the Canton of Valais (equipped with the latest technology (dual polarisation), commenced operation in 2014 and monitors the atmosphere in the inner Alpine region)
-- Weissfluhgipfel in the Canton of Graubünden (equipped with the latest technology (dual polarisation), commenced operation in 2016, and monitors the atmosphere in the inner Alpine region) 
+MeteoSwiss operates a [network of five weather radar stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html) which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
 
-The following radar data are available:
+The following radar products are available:
 
 **Precipitation Products**
 - D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP*
@@ -16,17 +11,17 @@ The following radar data are available:
 - D3 - RainForest Precipitation - *not yet realised*
 
 **Reflectivity-based Products**
-- D4 - *MAX-ECHO*
-- D5 - *Echo-Top 15dBZ*
-- D6 - *Echo-Top 45dBZ*
+- D4 - ? *MAX-ECHO*
+- D5 - ? *Echo-Top 15dBZ*
+- D6 - ? *Echo-Top 45dBZ*
+- D7 - CAPPI 3D - *not yet realised*
+- D8 - Reflectivity Height - *not yet realised*
 
 **Hail Products**
-- D7 - *Probability of Hail* *POH*
-- D8 - *Probability of Hail with Analysis* *POH*
-- D9 - *Maximum Expected Severe Hail Size* *MESHS*
-- D10 - *Maximum Expected Severe Hail Size with Analysis* *MESHS*
-- D11 - CAPPI 3D - *not yet realised*
-- D12 - Reflectivity Height - *not yet realised*
+- D9 - *Probability of Hail* *POH*
+- D10 - *Probability of Hail with Analysis* *POH*
+- D11 - *Maximum Expected Severe Hail Size* *MESHS*
+- D12 - *Maximum Expected Severe Hail Size with Analysis* *MESHS*
 
 **Convection Products**
 - D13 - Vertical Integrated Liquid content (VIL) - *not yet realised*
