@@ -6,16 +6,29 @@ MeteoSwiss operates a [network of five weather radar stations](https://www.meteo
 The following radar products are available:
 
 **Precipitation Products**
-- D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP* --> Basic Radar (Web)
-- D2 - [Combined Precipitation](d2---combined-precipitation) *CombiPrecip* --> Advanced Radar (Web)
+- D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP --> Basic Radar (Web)*
+- D2 - [Combined Precipitation](d2---combined-precipitation) *CombiPrecip --> Advanced Radar (Web)*
 - D3 - RainForest Precipitation - *not yet realised*
 
-**Reflectivity-based Products** ?
-- D4 - *MAX-ECHO* --> Advanced Radar (Web)
-- D5 - *Echo-Top 15dBZ* --> Advanced Radar (Web)
-- D6 - *Echo-Top 45dBZ* --> Advanced Radar (Web)
+**Reflectivity-based Products**
+- D4 - MAX-ECHO, Echo-Top 15dB, Echo-Top 45dBZ *--> Advanced Radar (Web)*
+<!--
+- Dx - Echo-Top 15dB *--> Advanced Radar (Web)*
+- Dy - Echo-Top 45dBZ *--> Advanced Radar (Web)*
+--> 
 - D7 - CAPPI 3D - *not yet realised*
 - D8 - Reflectivity Height - *not yet realised*
+
+**Hail Products**
+
+**Convection Products**
+
+**Polar 3D Products**
+
+
+
+**Reflectivity-based Products** ?
+
 
 **Hail Products**
 - D9 - *Probability of Hail* *POH* --> Advanced Radar (Web)
