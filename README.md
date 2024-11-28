@@ -3,8 +3,15 @@
 # D. Radar Data
 MeteoSwiss operates a [network of five weather radar stations](https://www.meteoswiss.admin.ch/weather/measurement-systems/atmosphere/weather-radar-network.html) which record every type of precipitation and storms in real time, are fully automated and, between them, cover the whole of Switzerland.
 
-The following radar products are available:
+The following radar products are planned to be made available:
 
+- D1 - Precipitation products - Radar-based, Combined
+- D2 - Reflectivity-based products - ...
+- D3 - Hail products - Probability of Hail, Maximum Expected Severe Hail Size
+- D4 - Convection Products - ...
+- D5 - Polar 3D Products - ...
+
+<!--
 **Precipitation Products**
 - D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP --> Basic Radar (Web)*
 - D2 - [Combined Precipitation](d2---combined-precipitation) *CombiPrecip --> Advanced Radar (Web)*
@@ -18,6 +25,7 @@ The following radar products are available:
 **Hail Products**
 - D7 - Probability of Hail, /with Analysis *POH --> Advanced Radar (Web)*
 - D8 - Maximum Expected Severe Hail Size, /with Analysis *MESHS --> Advanced Radar (Web)*
+-->
 
 <!--
 **Convection Products**
@@ -37,76 +45,32 @@ The following radar products are available:
 
 ---
 
-## 1. Basic radar data
+## D1 - Radar-based Precipitation
 ... 
 
 cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2621-basic-radar-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2621-basic-radar-data)
 
-### Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station*.
+<br>
 
-Data format is [`...`](...) with an estimated volume of ... MB per file.
+The coordinate system is [`Swiss LV95`](https://www.swisstopo.admin.ch/en/the-swiss-coordinates-system) / [`EPSG:2056`](https://epsg.io/2056). 
 
-See example data files: [`...`](...).
+The data format is [`HDF5`](https://www.hdfgroup.org/solutions/hdf5/) with an estimated volume of ... MB per file.
 
-### Parameter metadata
-*See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
+<br>
 
-<!-- ### Codes -->
-<!-- ... -->
+The following data files are available for download:
 
-### Station metadata
-*See example [station metadata file](...).*
+| *Parameter*                            | *Product*                          | Time interval | Update cycle   | Data files (see STAC Assets)                                       |
+|:---------------------------------------|:-----------------------------------|:------------- |:---------------|:-------------------------------------------------------------------|
+| **Radar-based Precipitation**          | Instantaneus                       | 5min          | 5min           | ch.meteoswiss.ccs4r2nj:RZCyyjjjHHMM*.*01                           |
 
-### Data visualisation
-See e.g. MeteoSwiss' [...](...).
+<br>
 
-## 2. Extended radar data
-[Extended radar products](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) combine observations from Swiss weather radars with other data, such as those obtained from the numerical weather model. For certain meteorological phenomena, such as hail occurring in conjunction with a thunderstorm, these extended products provide more detail than the basic radar products. ...
-
-cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2622-advanced-radar-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2622-advanced-radar-data)
-
-### Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station*.
-
-Data format is [`...`](...) with an estimated volume of ... MB per file.
-
-See example data files: [`...`](...).
-
-### Parameter metadata
-*See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
-
-<!-- ### Codes -->
-<!-- ... -->
-
-### Station metadata
-*See example [station metadata file](...).*
-
-### Data visualisation
-See e.g. MeteoSwiss' [...](...).
-
-## 3. Combined precipitation calculations
-... 
+## D2 - Combined Precipitation
+Combined precipitation is an [extended radar product](https://www.meteoswiss.admin.ch/services-and-publications/service/weather-and-climate-products/radard-avanced.html) combining observations from Swiss weather radars with other data, such as those obtained from the numerical weather model. *For certain meteorological phenomena, such as hail occurring in conjunction with a thunderstorm, these extended products provide more detail than the basic radar products.*
 
 cf. [https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2623-combiprecip-data](https://github.com/MeteoSwiss/publication-opendata?tab=readme-ov-file#2623-combiprecip-data)
 
-### Data granularity, update frequency, format and volume
-There are files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity) `...`, `...`, `...`, `...` *and [update frequency](https://github.com/MeteoSwiss/opendata-download/blob/main/README.md#update-frequency) hourly (`now`), daily (`recent`) or yearly (`historical`) for each station*.
+Data visualisations see e.g. Martin Schilliger/Stadt Zürich, Schutz & Rettung's [Radar Visualisation for HDF5/NetCDF files](https://github.com/martinschilliger/Radar-Visualisation).
 
-Data format is [`...`](...) with an estimated volume of ... MB per file.
-
-See example data files: [`...`](...).
-
-### Parameter metadata
-*See example parameter metadata files of [data granularity](https://github.com/MeteoSwiss/opendata-download?tab=readme-ov-file#data-granularity): [`...`](...) and [`...`](...).*
-
-<!-- ### Codes -->
-<!-- ... -->
-
-### Station metadata
-*See example [station metadata file](...).*
-
-### Data visualisation
-See e.g. MeteoSwiss' [...](...).
-
-See e.g. Martin Schilliger/Stadt Zürich, Schutz & Rettung's [Radar Visualisation for HDF5/NetCDF files](https://github.com/martinschilliger/Radar-Visualisation).
+<br>
