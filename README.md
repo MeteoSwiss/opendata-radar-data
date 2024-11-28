@@ -12,43 +12,24 @@ The following radar products are available:
 
 **Reflectivity-based Products**
 - D4 - MAX-ECHO, Echo-Top 15dB, Echo-Top 45dBZ *--> Advanced Radar (Web)*
-
-<!--
-- Dx - Echo-Top 15dB *--> Advanced Radar (Web)*
-- Dy - Echo-Top 45dBZ *--> Advanced Radar (Web)*
---> 
-
-- D7 - CAPPI 3D - *not yet realised*
-- D8 - Reflectivity Height - *not yet realised*
+- D5 - CAPPI 3D - *not yet realised*
+- D6 - Reflectivity Height - *not yet realised*
 
 **Hail Products**
+- D7 - Probability of Hail, /with Analysis *POH --> Advanced Radar (Web)*
+- D8 - Maximum Expected Severe Hail Size, /with Analysis *MESHS --> Advanced Radar (Web)*
 
 **Convection Products**
+- D9 - Vertical Integrated Liquid content (VIL) - *not yet realised*
+- D10 - Vertical Integrated Liquid content density (VIL-Density) - *not yet realised*
+- D11 - Thunderstorm Radar Tracking (TRT) - *not yet realised*
+- D12 - Mesocyclone Detection - *not yet realised*
 
 **Polar 3D Products**
-
-
-
-**Reflectivity-based Products** ?
-
-
-**Hail Products**
-- D9 - *Probability of Hail* *POH* --> Advanced Radar (Web)
-- D10 - *Probability of Hail with Analysis* *POH* --> Advanced Radar (Web)
-- D11 - *Maximum Expected Severe Hail Size* *MESHS* --> Advanced Radar (Web)
-- D12 - *Maximum Expected Severe Hail Size with Analysis* *MESHS* --> Advanced Radar (Web)
-
-**Convection Products**
-- D13 - Vertical Integrated Liquid content (VIL) - *not yet realised*
-- D14 - Vertical Integrated Liquid content density (VIL-Density) - *not yet realised*
-- D15 - Thunderstorm Radar Tracking (TRT) - *not yet realised*
-- D16 - Mesocyclone Detection - *not yet realised*
-
-**Polar 3D Products**
-- D17 - Reflectivity, Radial Wind - *not yet realised*
-- D18 - Hydrometeor Classification - *not yet realised*
-- D19 - Dealiased Wind - *not yet realised*
-- D20 - Vertical Wind Profile - *not yet realised*
+- D13 - Reflectivity, Radial Wind - *not yet realised*
+- D14 - Hydrometeor Classification - *not yet realised*
+- D15 - Dealiased Wind - *not yet realised*
+- D16 - Vertical Wind Profile - *not yet realised*
 
 <br>
 
