@@ -8,17 +8,18 @@ The following radar products are available:
 **Precipitation Products**
 - D1 - [Radar-based Precipitation](#d1---radar-based-precipitation) *PRECIP --> Basic Radar (Web)*
 - D2 - [Combined Precipitation](d2---combined-precipitation) *CombiPrecip --> Advanced Radar (Web)*
-- D3 - RainForest Precipitation - *not yet realised*
+<!-- - D3 - RainForest Precipitation - *not yet realised* -->
 
 **Reflectivity-based Products**
 - D4 - MAX-ECHO, Echo-Top 15dB, Echo-Top 45dBZ *--> Advanced Radar (Web)*
-- D5 - CAPPI 3D - *not yet realised*
-- D6 - Reflectivity Height - *not yet realised*
+<!-- - D5 - CAPPI 3D - *not yet realised* -->
+<!-- - D6 - Reflectivity Height - *not yet realised* -->
 
 **Hail Products**
 - D7 - Probability of Hail, /with Analysis *POH --> Advanced Radar (Web)*
 - D8 - Maximum Expected Severe Hail Size, /with Analysis *MESHS --> Advanced Radar (Web)*
 
+<!--
 **Convection Products**
 - D9 - Vertical Integrated Liquid content (VIL) - *not yet realised*
 - D10 - Vertical Integrated Liquid content density (VIL-Density) - *not yet realised*
@@ -30,6 +31,7 @@ The following radar products are available:
 - D14 - Hydrometeor Classification - *not yet realised*
 - D15 - Dealiased Wind - *not yet realised*
 - D16 - Vertical Wind Profile - *not yet realised*
+-->
 
 <br>
 
