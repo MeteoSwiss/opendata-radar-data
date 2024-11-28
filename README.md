@@ -12,10 +12,12 @@ The following radar products are available:
 
 **Reflectivity-based Products**
 - D4 - MAX-ECHO, Echo-Top 15dB, Echo-Top 45dBZ *--> Advanced Radar (Web)*
+
 <!--
 - Dx - Echo-Top 15dB *--> Advanced Radar (Web)*
 - Dy - Echo-Top 45dBZ *--> Advanced Radar (Web)*
 --> 
+
 - D7 - CAPPI 3D - *not yet realised*
 - D8 - Reflectivity Height - *not yet realised*
 
